@@ -1,0 +1,132 @@
+<style>
+  /* FOOTER */
+  .footer {
+    position: relative;
+    padding: 5rem 0;
+    width: 100%;
+    background-image: url('/images/hero_1.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 100vh;
+  }
+  .footer::before {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.7);
+  }
+  .footer-wrapper {
+    position: relative;
+    z-index: 2;
+  }
+  .business-name {
+    text-align: center;
+    font-size: 26px;
+    font-weight: bold;
+    padding: 2rem 0;
+    color: white;
+  }
+  .footer-navigation {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .footer-li {
+    padding: 20px 10px;
+  }
+  .footer-a {
+    padding: 10px;
+    /* color: white; */
+    /* font-weight: bold; */
+    font-size: 1rem;
+    color: rgb(126, 133, 134);
+  }
+  .vertical-divider {
+    background-color: rgba(255, 255, 255, 0.11);
+    width: 85%;
+    height: 1px;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 50px;
+  }
+  .copyrights {
+    color: white;
+    text-align: center;
+    font-size: 13px;
+  }
+  .social-media {
+    margin-top: 30px;
+  }
+  @media (max-width: 768px) {
+    .footer-navigation {
+      flex-direction: column;
+    }
+  }
+  @media (max-width: 576px) {
+    .footer-navigation {
+      flex-direction: column;
+    }
+  }
+  @media (min-width: 768px) {
+    .footer {
+      background-attachment: fixed;
+    }
+  }
+</style>
+<footer class="footer">
+  <div class="footer-wrapper">
+    <div class="business-name">Koffee Brown</div>
+    <div class="navigation-links">
+      <ul class="footer-navigation">
+        <li class="footer-li">
+          <a href="index.html" class="footer-a">Home</a>
+        </li>
+        <li class="footer-li">
+          <a href="about.html" class="footer-a">About</a>
+        </li>
+        <li class="footer-li">
+          <a href="services.html" class="footer-a">Services</a>
+        </li>
+        <li class="footer-li">
+          <a href="contact.html" class="footer-a">Contact</a>
+        </li>
+      </ul>
+    </div>
+    <div class="social-media">
+      <div class="facebook">
+        <a href="https://www.facebook.com/koffeebrowntanning"
+          ><i class="fab fa-facebook"></i
+        ></a>
+      </div>
+      <div class="instagram">
+        <a href="https://www.instagram.com/koffeebrowntanning/"
+          ><i class="fab fa-instagram"></i
+        ></a>
+      </div>
+      <div class="email">
+        <a href="mailto:marinel.cirstea@gmail.com"
+          ><i class="far fa-envelope"></i
+        ></a>
+      </div>
+    </div>
+    <div class="vertical-divider"></div>
+    <div
+      class="contact"
+      style="color:white; text-align:center;padding-bottom:10px;"
+    >
+      Email:
+      <a href="mailto:marinel.cirstea@gmail.com">marinel.cirstea@gmail.com</a>
+    </div>
+    <div class="copyrights">
+      Copyright &copy; 2020. All rights reserved. | Design by Marinel C.
+    </div>
+  </div>
+</footer>
