@@ -8,8 +8,7 @@ The website is built in HTML, CSS and a bit of JS/JQuery
  - The header and footer are loaded with jQuery as templates (or global code if you will)
  - You'll have to start a server for the script to work. (You can use Live Server for Visual Studio Code)
  
- Before you go ahead and use it, please keep in mind that this project is the starting code I wrote
- to get the website up and running, NOT the end product
+ Before you go ahead and use it, please keep in mind that this project is the starting code to get the website up and running, NOT the end product
  
  So: The HTML and CSS files should be cleaned up.
  
